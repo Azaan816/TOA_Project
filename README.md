@@ -1,4 +1,4 @@
-# Regular Grammar to NFA Converter
+# Regular Grammar Parser
 
 This Python script converts a user-defined **regular grammar** (specifically, a right-linear grammar) into an equivalent **Epsilon Nondeterministic Finite Automaton (ε-NFA)**. It then allows you to test input strings against the constructed NFA to determine if they are accepted by the language defined by the grammar.
 
@@ -49,6 +49,8 @@ These grammars are equivalent in expressive power to Finite Automata (NFAs and D
         *   Computing the epsilon closure of this new set of states.
     *   If, after processing the entire string, any of the NFA's current states are accept states, the string is accepted. Otherwise, it's rejected.
 
+## Sample Output
+<img src="https://github.com/Azaan816/TOA_Project/blob/main/SampleOutput.jpg"></img>
 ## Requirements
 
 *   Python 3.x
@@ -63,11 +65,11 @@ No external libraries beyond the Python standard library (`collections`, `sys`, 
     cd your-repo-name
     ```
     (Replace `your-username/your-repo-name` with the actual repository path)
-2.  Alternatively, just save the provided Python code as a `.py` file (e.g., `grammar_nfa.py`).
+2.  Alternatively, just save the provided Python code as a `.py` file (e.g., `TOA.py`).
 
 ## Usage
 
 Run the script from your terminal:
 
 ```bash
-python grammar_nfa.py
+python TOA.py
