@@ -1,6 +1,10 @@
 # Regular Grammar Parser
 
-This Python script converts a user-defined **regular grammar** (specifically, a right-linear grammar) into an equivalent **Epsilon Nondeterministic Finite Automaton (ε-NFA)**. It then allows you to test input strings against the constructed NFA to determine if they are accepted by the language defined by the grammar.
+This Python script converts a user-defined **regular grammar** (specifically, a right-linear grammar) into an equivalent **Epsilon Nondeterministic Finite Automaton (ε-NFA)**. It then allows you to test input strings against the constructed NFA to determine if they are accepted by the language defined by the grammar.   
+<i>Note:</i> This project was part of our course **Theory of Automata** in our fourth semester. The group members are as follows:   
+k230568 - [Azaan Hussain](https://github.com/Azaan816)   
+k232001 - [Muzammil Siddiqui](https://github.com/MuxammilSidd)   
+k230532 - [Rayyan Ali](https://github.com/Rayyanxalii)
 
 ## Features
 
